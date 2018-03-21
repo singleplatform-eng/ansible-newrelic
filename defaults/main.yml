@@ -8,3 +8,6 @@ newrelic_ssl_ca_path: False
 newrelic_pidfile: /var/run/newrelic/nrsysmond.pid
 newrelic_collector_host: collector.newrelic.com
 newrelic_timeout: 30
+
+newrelic_manage: True
+newrelic_install: True
