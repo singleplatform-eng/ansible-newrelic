@@ -3,3 +3,4 @@
   service:
     name: newrelic-sysmond
     state: restarted
+  when: newrelic_manage
