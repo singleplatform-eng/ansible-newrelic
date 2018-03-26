@@ -25,7 +25,6 @@
       mode: 0640
     notify:
       - Restart New Relic
-    when: newrelic_loaded_os_family|default(False) != False
 
   - name: Ensure New Relic Sysmond is started and enabled
     service:
