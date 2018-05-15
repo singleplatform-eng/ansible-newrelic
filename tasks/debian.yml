@@ -10,7 +10,7 @@
     state: absent
 
 - name: Debian | Remove New Relic repository
-  copy:
+  file:
     path: /etc/apt/sources.list.d/newrelic.list
     state: absent
 
