@@ -1,5 +1,5 @@
 ---
-- name: Restart New Relic
+- name: restart new relic
   service:
     name: newrelic-sysmond
     state: restarted

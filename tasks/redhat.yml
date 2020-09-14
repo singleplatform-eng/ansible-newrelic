@@ -24,4 +24,4 @@
     name: newrelic-sysmond
     state: latest
   notify:
-    - Restart New Relic
+    - restart new relic
